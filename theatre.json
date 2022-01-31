@@ -130,7 +130,7 @@
                 {
                  "name":"jitsiRoom",
                  "type":"string",
-                 "value":"idbf-event"
+                 "value":"theatre-event"
                 }, 
                 {
                  "name":"jitsiRoomAdminTag",
