@@ -59,7 +59,7 @@ WA.room.onLeaveZone(zoneFeedback, () =>{
 })
 
 WA.room.onEnterZone(zoneMusik, () => {
-   currentPopup =  WA.ui.openPopup("popUpMusik","Höre eure Lieblingslieder!",[
+   currentPopup =  WA.ui.openPopup("popUpMusik","Ein wenig Musik?!",[
         {
             label: "Her damit!",
 			callback: (popup => {
