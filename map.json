@@ -1523,7 +1523,7 @@
                         {
                          "name":"persist",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }],
                  "rotation":0,
                  "type":"variable",
@@ -1533,6 +1533,12 @@
                  "y":291
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"tag",
+                 "type":"string",
+                 "value":"admin"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
