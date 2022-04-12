@@ -65,9 +65,9 @@ WA.room.onLeaveZone(zoneiFrame, () =>{
 WA.room.onEnterZone(zoneFeedback, () => {
    currentPopup =  WA.ui.openPopup("popUpFeedback","Hier kannst du Feedback abgeben.",[
         {
-            label: "Feedback",
+            label: "OK",
             callback: (popup => {
-                WA.nav.openCoWebSite(urlFeedback);
+                WA.nav.openCoWebSite(WA.state.feedback, false, "autoplay; fullscreen; encrypted-media");
                 isCoWebSiteOpened = true;
                 closePopUp();
             })
